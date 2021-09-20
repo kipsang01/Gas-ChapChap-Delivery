@@ -1,0 +1,22 @@
+.about-us{
+    background-color: rgb(134, 134, 131);
+}
+.who-we-are{
+    background-color: azure;
+    width: 60%;
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+}
+.why-us{
+    background-color: azure;
+    width: 80%;
+    padding: 10px;
+    border-top-right-radius: 30px;
+}
+.gas-about{
+    width: 60%;
+}
+.support{
+    width: 100px;
+    height: 100px;
+}
