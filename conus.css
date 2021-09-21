@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    padding:0;
+}
+#footer{
+    background-color: #272727;
+    margin-top: 50px;
+    color: #FF652F;
+}
+#socials{
+    margin-top: 20px;
+}
