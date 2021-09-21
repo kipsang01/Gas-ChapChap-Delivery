@@ -2,10 +2,18 @@ body{
     margin:0;
     padding:0;
 }
+#conusform{
+    background-image: url("images/conus.jpg");
+    background-size: cover;
+}
+.form .form-control{
+    background-color: transparent;
+
+}
 #footer{
     background-color: #272727;
     margin-top: 50px;
-    color: #FF652F;
+    color:  #FFE400;;
 }
 #socials{
     margin-top: 20px;
