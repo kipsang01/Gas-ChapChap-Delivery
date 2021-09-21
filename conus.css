@@ -3,8 +3,15 @@ body{
     padding:0;
 }
 #conusform{
-    background-image: url("images/conus.jpg");
-    background-size: cover;
+    margin-top: 20px;
+    background-image: url("images/conus.jpeg");
+    
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+form{
+    width: 80%;
 }
 .form .form-control{
     background-color: transparent;
