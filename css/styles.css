@@ -20,3 +20,40 @@
     width: 100px;
     height: 100px;
 }
+/* joy */
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Serif', serif;
+}
+#conheader{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+#conusform{
+    margin-top: 20px;
+    
+}
+form{
+    width: 80%;
+}
+.form .form-control{
+    background-color: transparent;
+
+}
+#texta{
+    width: 80%;
+}
+#conimg{
+    margin-top: 10px;
+}
+#footer{
+    background-color: #272727;
+    margin-top: 50px;
+    color:  #FFE400;;
+}
+#socials{
+    margin-top: 20px;
+}
+/* joy */
