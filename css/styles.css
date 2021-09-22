@@ -27,49 +27,17 @@ strong {
 .btn {
     border-radius: 200px;
 }
-.slideshow-container {
-  max-width: 350px;
-  position: relative;
-  margin: auto;
-  height: 400px;
-  
+
+.kgaspic, .afrigaspic, .totalpic{
+    height: 75px;
 }
-
-.text {
-  color: black;
-  font-size: 20px;
-  
-  margin-left: 150px;
-  margin-top: -200px;
-  width: 100%;
-  text-align: right;
-
+#mySlides .carousel-item p{
+    font-size: 35px;
 }
-
-
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.pic1 , .pic2 , .pic3{
+    height: 200px;
+    width: 200px;
 }
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
 
 
 .about-us{
