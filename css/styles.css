@@ -42,7 +42,7 @@ strong {
     border-radius: 200px;
 }
 .slideshow-container {
-  max-width: 350px;
+  width: 100%;
   position: relative;
   margin: auto;
   height: 400px;
@@ -136,13 +136,17 @@ h3{
 #conhead{
     text-align: center;
     color: #272727;
+    font-weight: 900;
 }
 #conusform{
     margin-top: 20px;
+    background-color:rgb(39, 38, 38) ;
 
 }
 form{
     width: 80%;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 .form .form-control{
     background-color: transparent;
