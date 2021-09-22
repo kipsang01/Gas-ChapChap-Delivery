@@ -41,6 +41,8 @@ strong {
 .btn {
     border-radius: 200px;
 }
+<<<<<<< HEAD
+=======
 .slideshow-container {
   width: 100%;
   position: relative;
@@ -57,35 +59,25 @@ strong {
   margin-top: -200px;
   width: 100%;
   text-align: right;
+>>>>>>> 02b428e3a518fdc91c35f84eb01c42e4b306215b
 
+.kgaspic, .afrigaspic, .totalpic{
+    height: 75px;
+}
+#mySlides .carousel-item p{
+    font-size: 35px;
+}
+.pic1 , .pic2 , .pic3{
+    height: 200px;
+    width: 200px;
 }
 
-
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.pricetag{
+    background: blue;
+    color: white;
+    width: fit-content;
+    margin: auto;
 }
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
-
-
 .about-us{
     background-color: rgb(39, 38, 38);
 }
