@@ -1,9 +1,9 @@
 *{
-    box-sizing: border-box;
+   /* box-sizing: border-box;*/
     font-family: 'Poppins', sans-serif;
 }
 body{
-    margin:0;
+    margin:10px;
     padding:0;
 }
 #brand {
@@ -28,9 +28,12 @@ strong {
     border-radius: 200px;
 }
 .slideshow-container {
-    max-width: 350px;
+    max-width: 100%;
     position: relative;
     margin: auto;
+  }
+  .mySlides{
+      max-width: 350px;
   }
   
   .text {
