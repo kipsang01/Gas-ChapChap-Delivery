@@ -1,5 +1,5 @@
 *{
-   /* box-sizing: border-box;*/
+   box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 body{
@@ -28,12 +28,9 @@ strong {
     border-radius: 200px;
 }
 .slideshow-container {
-    max-width: 100%;
+    max-width: 350px;
     position: relative;
     margin: auto;
-  }
-  .mySlides{
-      max-width: 350px;
   }
   
   .text {
