@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: stretch; */
+    justify-content: stretch;
     
 }
 #img1{
@@ -41,8 +41,6 @@ strong {
 .btn {
     border-radius: 200px;
 }
-<<<<<<< HEAD
-=======
 .slideshow-container {
   width: 100%;
   position: relative;
@@ -59,7 +57,7 @@ strong {
   margin-top: -200px;
   width: 100%;
   text-align: right;
->>>>>>> 02b428e3a518fdc91c35f84eb01c42e4b306215b
+}
 
 .kgaspic, .afrigaspic, .totalpic{
     height: 75px;
@@ -86,13 +84,13 @@ strong {
     height: 600px;
 }
 .who-we-are{
-    background-color: azure;
+    background-color: white;
     width: 60%;
     padding: 10px;
     border-bottom-left-radius: 30px;
 }
 .why-us{
-    background-color: azure;
+    background-color: white;
     width: 80%;
     padding: 10px;
     border-top-right-radius: 30px;
@@ -131,8 +129,9 @@ h3{
 }
 #conhead{
     text-align: center;
-    color: #272727;
+    color: yellow;
     font-weight: 900;
+    margin-top: 40px;
 }
 #conusform{
     margin-top: 20px;
@@ -151,7 +150,9 @@ form{
 #footer{
     background-color: #272727;
     margin-top: 50px;
-    color:  #FFE400;;
+    color:  #FFE400;
+    padding-top: 20px;
+    text-align: center;
 }
 #socials{
     margin-top: 20px;
