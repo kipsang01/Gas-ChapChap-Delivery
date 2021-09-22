@@ -1,5 +1,10 @@
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
 }
 #brand {
     color: yellow;
@@ -114,4 +119,27 @@ h3{
         justify-content: center;
         width: 100%;
     }
+}
+#conusform{
+    margin-top: 20px;
+    background-image: url("images/conus.jpeg");
+    
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+form{
+    width: 80%;
+}
+.form .form-control{
+    background-color: transparent;
+
+}
+#footer{
+    background-color: #272727;
+    margin-top: 50px;
+    color:  #FFE400;;
+}
+#socials{
+    margin-top: 20px;
 }
