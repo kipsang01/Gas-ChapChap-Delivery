@@ -87,7 +87,11 @@ strong {
 
 
 .about-us{
-    background-color: rgb(134, 134, 131);
+    background-color: rgb(39, 38, 38);
+}
+#enock {
+    width: 600px;
+    height: 600px;
 }
 .who-we-are{
     background-color: azure;
