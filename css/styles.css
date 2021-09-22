@@ -1,5 +1,10 @@
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
 }
 .fixes {
     display: flex;
@@ -37,48 +42,47 @@ strong {
     border-radius: 200px;
 }
 .slideshow-container {
-    max-width: 350px;
-    position: relative;
-    margin: auto;
-  }
+  max-width: 350px;
+  position: relative;
+  margin: auto;
+  height: 400px;
   
-  .text {
-    color: #82db0d;
-    font-size: 35px;
-    
-    position: absolute;
-    
-    width: 100%;
-    text-align: center;
+}
 
-  }
+.text {
+  color: black;
+  font-size: 20px;
   
+  margin-left: 150px;
+  margin-top: -200px;
+  width: 100%;
+  text-align: right;
 
-  
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
+}
 
-  
 
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 
 
 
@@ -128,4 +132,27 @@ h3{
         justify-content: center;
         width: 100%;
     }
+}
+#conhead{
+    text-align: center;
+    color: #272727;
+}
+#conusform{
+    margin-top: 20px;
+
+}
+form{
+    width: 80%;
+}
+.form .form-control{
+    background-color: transparent;
+
+}
+#footer{
+    background-color: #272727;
+    margin-top: 50px;
+    color:  #FFE400;;
+}
+#socials{
+    margin-top: 20px;
 }
