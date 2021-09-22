@@ -1,6 +1,27 @@
 *{
     box-sizing: border-box;
 }
+#brand {
+    color: yellow;
+}
+ nav li a{
+    position: relative;
+    left: 300px;
+}
+#inquiries {
+    position: relative;
+    left: 900px;
+}
+.display-4,
+#decription {
+    color: white;
+}
+strong {
+    color: yellow;
+}
+.btn {
+    border-radius: 200px;
+}
 .slideshow-container {
     max-width: 350px;
     position: relative;
