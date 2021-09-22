@@ -6,6 +6,20 @@ body{
     margin:0;
     padding:0;
 }
+.fixes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch; */
+    
+}
+#img1{
+    width: 300px;
+    height: 200px;
+}
+.landing-page {
+    background-color:rgb(39, 38, 38) ;
+}
 #brand {
     color: yellow;
 }
@@ -27,6 +41,25 @@ strong {
 .btn {
     border-radius: 200px;
 }
+<<<<<<< HEAD
+=======
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  height: 400px;
+  
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  
+  margin-left: 150px;
+  margin-top: -200px;
+  width: 100%;
+  text-align: right;
+>>>>>>> 02b428e3a518fdc91c35f84eb01c42e4b306215b
 
 .kgaspic, .afrigaspic, .totalpic{
     height: 75px;
@@ -46,7 +79,11 @@ strong {
     margin: auto;
 }
 .about-us{
-    background-color: rgb(134, 134, 131);
+    background-color: rgb(39, 38, 38);
+}
+#enock {
+    width: 600px;
+    height: 600px;
 }
 .who-we-are{
     background-color: azure;
@@ -92,16 +129,20 @@ h3{
         width: 100%;
     }
 }
+#conhead{
+    text-align: center;
+    color: #272727;
+    font-weight: 900;
+}
 #conusform{
     margin-top: 20px;
-    background-image: url("images/conus.jpeg");
-    
-    background-size: auto;
-    background-repeat: no-repeat;
-    
+    background-color:rgb(39, 38, 38) ;
+
 }
 form{
     width: 80%;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 .form .form-control{
     background-color: transparent;
