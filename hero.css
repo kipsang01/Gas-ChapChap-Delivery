@@ -18,3 +18,13 @@ body {
     position: relative;
     left: 900px;
 }
+.display-4,
+#decription {
+    color: white;
+}
+strong {
+    color: yellow;
+}
+.btn {
+    border-radius: 200px;
+}
