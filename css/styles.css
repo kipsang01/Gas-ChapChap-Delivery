@@ -39,7 +39,12 @@ strong {
     width: 200px;
 }
 
-
+.pricetag{
+    background: blue;
+    color: white;
+    width: fit-content;
+    margin: auto;
+}
 .about-us{
     background-color: rgb(134, 134, 131);
 }
