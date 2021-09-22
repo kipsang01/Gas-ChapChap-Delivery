@@ -1,6 +1,20 @@
 *{
     box-sizing: border-box;
 }
+.fixes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch; */
+    
+}
+#img1{
+    width: 300px;
+    height: 200px;
+}
+.landing-page {
+    background-color:rgb(39, 38, 38) ;
+}
 #brand {
     color: yellow;
 }
