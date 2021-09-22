@@ -119,9 +119,13 @@ h3{
         width: 100%;
     }
 }
+#conhead{
+    text-align: center;
+    color: #272727;
+}
 #conusform{
     margin-top: 20px;
-    git 
+
 }
 form{
     width: 80%;
