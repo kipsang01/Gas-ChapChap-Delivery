@@ -7,23 +7,38 @@
 }
 
 body{
-    background: #c4c4c4;
-    /* background: #F3B820; */
+
+    background: rgba(33, 33, 33, 1);
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
    
 }
-nav{
+.navbar{
+    min-height: 6vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+} 
+.navlinks a{
+    color: #F3B820;
+    margin: 0.7rem 3rem;
+}
+.navlinks a:hover{
+    color: #fff;
+}  
+a{
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
 }
 h1 {
     margin: 2rem;
     text-align: center;
-    color: rgba(33, 33, 33, 1);
+    color: #fff;
 }
-
+.ordernow {
+    background: rgba(33, 33, 33, 1);
+}
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -52,7 +67,7 @@ h1 {
     /* background: #c4c4c4; */
     width: 600px;
     height: 350px;
-    background: #c4c4c4;
+    background: rgba(33, 33, 33, 1);
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -76,12 +91,12 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #F3B820;
+    background: #fff;
     clip-path: circle(140px at center);
     transition: 0.5s;
 }
 .card:hover .circle:before{
-    background: rgba(33, 33, 33, 1);
+    background: #F3B820;
     clip-path: circle(400px at center);
 }
 .card img{
@@ -117,14 +132,14 @@ h1 {
     font-size: 2em;
     line-height: 1em;
     margin-bottom: 5px;
-    color: #F3B820;
+    color: #fff;
 }
 .card .content a {
     position: relative;
     padding: 10px 20px;
     border-radius: 10px;
-    background: #F3B820;
-    color: rgba(33, 33, 33, 1);
+    background: rgba(33, 33, 33, 1);
+    color: #F3B820;
     margin-top: 10px;
     display: inline-block;
     text-decoration: none;
@@ -132,8 +147,8 @@ h1 {
 }
 
 .responsive {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 50%;
 }
  
 @media (max-width: 991px) {
@@ -191,11 +206,13 @@ h1 {
     }
 }
 
-
+.partners{
+    background: rgba(33, 33, 33, 1);
+}
 .partners h2 {
     font-size: 40px;
     text-align: center;
-    color: rgba(33, 33, 33, 1);
+    color: #F3B820;
     margin-bottom: 2rem;
 }
 .logos {
@@ -286,7 +303,7 @@ h1 {
     background: #fff;
     padding: 3rem;
     border-radius: 30px;
-    height: 70%;
+    height: 80%;
     width: 30%;
     position: absolute;
     top: 25%;
@@ -311,4 +328,7 @@ h1 {
 .printcancel input{
     background: crimson;
     padding: 0.7rem 1rem ;
+}
+.footer1{
+   color: #F3B820;
 }

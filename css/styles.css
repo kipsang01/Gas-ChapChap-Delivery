@@ -23,13 +23,15 @@ body{
 #brand {
     color: yellow;
 }
- nav li a{
+nav li a{
     position: relative;
+    min-height: 8vh;
+    width: 100%;
     left: 300px;
 }
 #inquiries {
     position: relative;
-    left: 900px;
+    left: 500px;
 }
 .display-4,
 #decription {
