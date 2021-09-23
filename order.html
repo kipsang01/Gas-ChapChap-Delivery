@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="order.css">
+    <script src="https://kit.fontawesome.com/cc4b0d0a96.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Order</title>
+</head>
+<body>
+    <div class="ordernow">
+        <nav>
+            <div class="logonav">
+
+            </div>
+            <div class="navlinks">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </nav>
+        <h1>ORDER NOW</h1>
+        <div class="row"></div>
+        <div class="forminput1">
+            <form action="" class=" sticky-top formafrigas">
+                <div class="logoimages"></div>
+                <h3>CHOOSE SIZE</h3>
+                <div class="radioinput">
+
+                      <input class="form-check-input" type="radio" value="6KG" name="size" id="radio1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        6KG(@Ksh 1200)
+                      </label>
+
+                      <input class="form-check-input" type="radio" value="13KG" name="size" id="radio2">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        13KG(@Ksh 2200)
+                      </label>
+                      <input class="form-check-input" type="radio" value="26KG" name="size" id="radio3">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        26KG(@Ksh 3400)
+                      </label>
+                </div>
+                <div class=" col-md-6 form1 ">
+                    <label for="">Name:</label>
+                    <input type="text"  class="form-control form" id="name-input" placeholder="Name..." required>
+                </div>
+                <div class="form2">
+                    <label for="">Phone Number:</label>
+                    <input type="tel" name="" id="number-input" placeholder="07...">
+                </div>
+                <div class=" col-md-6 form3 ">
+                    <label for="">Location:</label>
+                    <input type="text"  class="form-control form" id="location-input" placeholder="Location..." required>
+                </div>
+                <div class="form2">
+                    <label for="">Number Of Gas:</label>
+                    <input type="number" name="" id="amount-input" placeholder="1...">
+                </div>
+                <p>Delivery Fee: Ksh 200</p>
+                <div class="totalfee"></div>
+                <div class="totaldiv">
+                    <div class="buttontotal">
+                        <button type="submit" value="submit" >Total</button>
+                    </div>
+                    Ksh :
+                    <span class="spantotal"></span>.00
+                </div>
+            </form>
+            
+            <div class="orderbtn">
+                <div class="buttonsubmit">
+                    <input type="button" value="ORDER NOW">
+                </div>
+                <div class="buttoncancel">
+                    <input type="button" value="CANCEL">
+                </div>
+            </div>
+        </div>
+        <div class="sticky-top receipt" id="receipt">
+            <div class="rlogo"></div>
+            <h2>Receipt</h2>
+            <h3>ChapChap Delivery</h3>
+            Name : <span class="Rname"></span>
+            <br>
+            Telephone : <span class="Rtel"></span>
+            <br>
+            <!-- Brand : <span class="Rbrand"></span>
+            <br> -->
+            Size : <span class="Rsize"></span>
+            <br>
+            Location : <span class="Rlocation"></span>
+            <br>
+            Price : <span class="Rprice"></span>
+            <br>
+            Delivery Cost : <span class="Rdelivery">200</span>
+            <br>
+            Total : <span class="Rtotal"></span>
+                <div class="printbuttons">
+                    <div class="print" id="print">
+                        <input type="button" value="Print">
+                    </div>
+                    <div class="printcancel">
+                        <input type="button" value="cancel">
+                    </div>
+                </div>
+        </div>
+        <div class="showcase">
+            <div class="cards">
+                <div class="card">
+                    <div class="circle"></div>
+                    <div class="content part1">
+                        <h2>AFRIGAS</h2>
+                        <p>Here you can order <strong>AfriGas</strong> gas cylinder at affordable price of <br>.6KG GAS @ Ksh3,999 only</p>
+                        <a href="#" class="button1">Order Now</a>
+                    </div>
+                   <img src="./images/agc-removebg-preview.png" alt="">
+                </div>
+                <div class="card">
+                    <div class="circle"></div>
+                    <div class="content part2">
+                        <h2>K-GAS</h2>
+                        <p>Here you can order <strong>K-gas</strong> gas cylinder at affordable price of <br>.6KG GAS @ Ksh3,999 only</p>
+                        <a href="#" class="button2">Order Now</a>
+                    </div>
+                    <img src="./images/kgasc-removebg-preview.png" alt="" height="400px">
+                </div>
+            </div>
+            <div class="cards2">
+                <div class="card">
+                    <div class="circle"></div>
+                    <div class="content part1">
+                        <h2>TOTAL GAS</h2>
+                        <p>Here you can order <strong>Total</strong> gas cylinder at affordable price of <br>.6KG GAS @ Ksh3,999 only</p>
+                        <a href="#" class="button3">Order Now</a>
+                    </div>
+                    <img src="./images/tgc-removebg-preview.png" alt="" height="400px">
+                </div>
+                <div class="card">
+                    <div class="circle"></div>
+                    <div class="content part2">
+                        <h2>OILIBYA GAS</h2>
+                        <p>Here you can order <strong>Oilibya</strong> gas cylinder at affordable price of <br>.6KG GAS @ Ksh3,999 only</p>
+                        <a href="#" class="button4">Order Now</a>
+                    </div>
+                    <img src="./images/ogc-removebg-preview.png" alt="" height="400px">
+                </div>
+                
+            </div>
+    
+        </div>
+    </div>
+    <div class="partners">
+        <h2>OUR PROUD PARTNERS</h2>
+        <div class=" container logos">
+            <div class="row">
+                <div class=" col-md-3 logos1">
+                    <img src="./images/oilibya-logo-2FFDB6E5E2-seeklogo.com.png" alt="" class="responsive">
+                </div>
+                <div class=" col-md-3 logos2">
+                    <img src="./images/afri gas logo.png" alt="" class="responsive">
+                </div>
+                <div class="col-md-3 logos3">
+                    <img src="./images/Total-logo-DB13C96CDD-seeklogo.com.png" alt="" class="responsive">
+                </div>
+                <div class="col-md-3 logos4">
+                    <img src="./images/k-gas logo.jpeg" alt="" class="responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="order.js"></script>
+</body>
+</html>
